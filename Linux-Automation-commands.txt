@@ -1,0 +1,15 @@
+VBoxManage list vms
+
+start
+======
+VBoxManage startvm "dupoc" --type headless
+
+pause
+=====
+VBoxManage controlvm "dupoc" pause --type headless
+VBoxManage controlvm "dupoc" resume --type headless
+VBoxManage controlvm "dupoc" poweroff --type headless
+
+"supoc" {8b8a826d-96f5-4890-af13-618c61b768a8}
+"dupoc" {8015bd31-a340-469e-b009-8881797f02c8}
+"win10" {8849c6db-608b-4bda-a54b-23de75bfae65}
